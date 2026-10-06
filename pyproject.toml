@@ -1,0 +1,9 @@
+[project]
+name = "dgm-contracts"
+version = "0.1.0"
+description = "Public cross-process contracts for DGM-MAT"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2.0,<3.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
